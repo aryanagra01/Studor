@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
+
+# OULAD clickstream exceeds GitHub's 100 MB file limit — download locally (see datasets/README.md)
+datasets/studentVle.csv
+
+# Optional: large pre-computed output (~24 MB)
+# task 1/engagement_scores_v2_clean4.csv
